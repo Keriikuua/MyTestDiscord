@@ -19,6 +19,9 @@ async def ping(ctx):
 @bot.command()
 async def neko(ctx):
     await ctx.send('ニャン')
+    
+# 接続に必要なオブジェクトを生成
+client = discord.Client()
 
 #読み上げ機能
 @client.event
